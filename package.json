@@ -1,0 +1,22 @@
+﻿{
+  "name": "each-package-run",
+  "version": "1.0.0",
+  "description": "run cli at each package",
+  "main": "index.js",
+  "bin": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/trydofor/each-package-run.git"
+  },
+  "keywords": [
+    "package",
+    "install",
+    "each"
+  ],
+  "author": "trydofor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trydofor/each-package-run/issues"
+  },
+  "homepage": "https://github.com/trydofor/each-package-run#readme"
+}
