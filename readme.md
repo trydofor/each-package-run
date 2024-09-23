@@ -1,4 +1,4 @@
-# 🌀each-package-run
+# 🌀 each-package-run
 
 run command at each package.
 
@@ -8,20 +8,14 @@ run command at each package.
 
 e.g. each-package-run -x dir1 -x dir2 ./packages pnpm install
 
+## Options
+
 * `-x` - to skip the directory
   * can be used multiple times
   * `[node_modules, .output, dist]` skipped by default
 * `<from-dir>` - the directory to start from
 * `<command>` - the command to run
 * `[...args]` - the arguments of the command
-
-## Options
-
-* `--script` - the script to run at each package, default is `build`
-* `--parallel` - run the script in parallel, default is `false`
-* `--ignore` - ignore packages that match the pattern, default is `[]`
-* `--only` - only run packages that match the pattern, default is `[]`
-* `--cwd` - the working directory to run the script, default is `./packages`
 
 ## Example
 

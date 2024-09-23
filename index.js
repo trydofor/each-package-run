@@ -43,8 +43,8 @@ function findPackageDirs(dir) {
 const excludes = [...dirSkip];
 const commands = [];
 
-const idx = args.findIndex(item => item.endsWith(cmdName));
-for (let i = idx + 1; i < args.length; i++) {
+// const idx = args.findIndex(item => item.endsWith(cmdName) || item.endsWith(`${cmdName}/index.js`));
+for (let i = 2; i < args.length; i++) {
   if (args[i] === '-x') {
     excludes.push(args[++i]);
   } else {
